@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/utilities-css.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/animate.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="navbar">
+    <nav class="bg-color-primary-1 text-color-white z-depth-0" role="navigation">
+      <div class="nav-wrapper container2">
+        <a id="logo-container" href="#" class="brand-logo"><img src="img/logo/logo_light.png" class="mx-2 my-2" width="50px" alt="Unsplashed background img 1"></a>
+        <ul class="right hide-on-med-and-down text-color-white">
+          <ul class="right hide-on-med-and-down text-color-white">
+            <li><a class="text-color-semi-white" style="font-size: 1.1em !important;">Inicio</a></li>
+            <li><a class="text-color-semi-white"  style="font-size: 1.1em !important;">Portafolio</a></li>
+            <li><a class="text-color-semi-white"  style="font-size: 1.1em !important;">Servicios</a></li>
+            <li><a class="text-color-semi-white"  style="font-size: 1.1em !important;">Artículos</a></li>
+            <li><a class="text-color-semi-white"  style="font-size: 1.1em !important;">Blog</a></li>
+            <li><a class="text-color-white"  style="font-size: 1.1em !important;">Contacto</a></li>
+          </ul>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a>Inicio</a></li>
+          <li><a>Portafolio</a></li>
+          <li><a>Servicios</a></li>
+          <li><a>Artículos</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contacto</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="section contacto-container">
+
+    <div class="row my-5">
+      <div class="col s12 text-center">
+        <h1 class="header text-center text-color-secondary-1 wow fadeInUp my-5 py-4 header-underlined" data-wow-delay="0.1s">Contácto</h1>
+        <p class="text-color-secondary-2">¿Tienes alguna duda o comentario? Escribenos un mensaje!</p>
+      </div>
+    </div>
+
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s8 offset-s2">
+
+      <div class="row">
+        <div class="col s12">
+          <div class="card-panel bg-color-white contacto-form-container py-0 px-0">
+            <div class="row">
+              <div class="col s6 bg-color-primary-1 rounded-lg contacto-form-1-container">
+                <h4 class="text-color-white">Información de contacto</h4>
+                <p class="text-color-semi-white pb-5">Escribenos y nos pondremos en contacto contigo</p>
+                <div style="height: 500px;" class="px-5">
+                  <p class="text-color-white py-3 fs-5"><i class="material-icons left">phone_in_talk</i> (+52) 222 793-3108</p>
+                  <p class="text-color-white py-3 fs-5"><i class="material-icons left">email</i> xochitemoarquitectura@gmail.com</p>
+                  <p class="text-color-white py-3 fs-5"><i class="material-icons left">location_on</i> Escribenos para que se muestre la dirección</p>
+                </div>
+                <div class="mb-2">
+                  <a class="text-color-white fs-4 px-2"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a class="text-color-white fs-4 px-2"><i class="fa-brands fa-twitter"></i></a>
+                  <a class="text-color-white fs-4 px-2" href="https://www.instagram.com/xochitemoarquitectura"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                
+              </div>
+              <div class="col s6">
+                <div class="row px-5 pt-5">
+                  <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">Nombre</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Apellidos</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <input id="email" type="text" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <input id="phone" type="text" class="validate">
+                    <label for="phone">Numero telefónico</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <textarea id="message" class="materialize-textarea"></textarea>
+                    <label for="message">Mensaje</label>
+                  </div>
+                </div>
+                <div class="row px-5">
+                  <div class="input-field col s12 text-align-end">
+                    <a class="waves-effect waves-light btn"><i class="material-icons left">send</i>Enviar mensaje</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      </div>
+      </div>
+
+  </div>
+
+
+  <footer class="page-footer bg-color-primary-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l8 s12">
+          <h5 class="text-color-white  wow fadeInUp" data-wow-delay="0.1s">Xochitemo Arquitectura</h5>
+          <p class="text-color-semi-white wow fadeInUp" data-wow-delay="0.1s">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a class="text-color-white fs-4 px-2"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="text-color-white fs-4 px-2"><i class="fa-brands fa-twitter"></i></a>
+            <a class="text-color-white fs-4 px-2" href="https://www.instagram.com/xochitemoarquitectura"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="col l4 s12">
+          <h5 class="white-text wow fadeInUp" data-wow-delay="0.1s">Información de contacto</h5>
+          <ul>
+            <li class="mb-3"><a class="white-text wow fadeInUp" data-wow-delay="0.1s" href="#!"><i
+                  class="material-icons tiny">location_on</i> Dirección</a>
+              <ul>
+                <li class="text-color-semi-white wow fadeInUp" data-wow-delay="0.1s">Tlaxcala, Tlax.</li>
+              </ul>
+            </li>
+            <li class="mb-3"><a class="white-text wow fadeInUp" data-wow-delay="0.1s" href="#!"><i
+                  class="material-icons tiny">local_phone</i> Teléfono</a>
+              <ul>
+                <li class="text-color-semi-white wow fadeInUp" data-wow-delay="0.1s">(+52) 222 793-3108</li>
+              </ul>
+            </li>
+            <li class="mb-3"><a class="white-text wow fadeInUp" data-wow-delay="0.1s" href="#!"><i
+                  class="material-icons tiny">mail</i> Email</a>
+              <ul>
+                <li class="text-color-semi-white wow fadeInUp" data-wow-delay="0.1s">xochitemoarquitectura@gmail.com
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright bg-color-primary-1 wow fadeIn" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="row center-align">
+          <div class="col s12">
+            <img class="responsive-img" width="50" src="img/logo_light.png" alt="Unsplashed background img 1">
+          </div>
+        </div>
+        <div class="row center-align">
+          <div class="col s12 text-color-semi-white">
+            © 2025 Xochitemo Arquitectura. All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
